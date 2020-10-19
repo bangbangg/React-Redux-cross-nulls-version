@@ -1,0 +1,123 @@
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+
+th {
+  height:100px;
+  width:100px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rows_columns {
+  margin: 40px auto;
+}
+
+.Head {
+  margin: 0 auto;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+/*HEADER classes */
+.name_changer {
+  display:flex;
+  flex-direction: row;
+  margin: 0 5%;
+}
+
+.img_container1 {
+  height: 40px;
+  width: 40px;
+  background-image: url(../Images/crest.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img_container2 {
+  height: 40px;
+  width: 40px;
+  background-image: url(../Images/Нолик.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.desc {
+  font-size: 20px;
+  margin: 15px 5%;
+}
+
+.input {
+  border:3px solid black;
+   box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+
+
+.mini_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini_container2 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.cross {
+  background-image: url(../Images/crest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.null {
+  background-image: url(../Images/Нолик.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.winner {
+  font-size: 40px;
+  color: red;
+}
+
+
+
+/* button */
+
+.btn{
+  display:inline-block;
+  padding:15px 40px;
+  border-radius:4px;
+  box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+  background-color: #020122;
+  color:#fff;
+  font-weight:600;
+  text-transform:uppercase;
+  cursor:pointer;
+  margin:0 auto;
+  text-decoration:none;
+}
+.ripple{
+  position: relative;
+  overflow:hidden;
+}
+
+.winner-text {
+  font-size: 40px;
+  color: rgba(214, 5, 5, 0.897);
+}
