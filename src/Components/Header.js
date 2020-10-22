@@ -6,7 +6,7 @@ import { changeFirst,changeSecond } from '../Actions/actions';
 
 export const Header = () => {
   const dispatch = useDispatch();
-  const click_count = useSelector(state=> state.app.count )
+  const clickCount = useSelector(state=> state.app.count )
   const nickName1 = useSelector(state=> state.header.player_1 )
   const nickName2 = useSelector(state=> state.header.player_2 )
 
@@ -14,8 +14,8 @@ export const Header = () => {
   const [player2, setPlayer2] = useState("O")
 
   let choise = 
-  (click_count===9? "Ходы закончились" : 
-  click_count%2 ===0 || click_count ===0 ? `Твой ход : ${nickName1}` : `Твой ход : ${nickName2}`);
+  (clickCount===9? "Ходы закончились" : 
+  clickCount%2 ===0 || clickCount ===0 ? `Твой ход : ${nickName1}` : `Твой ход : ${nickName2}`);
 
   
   
